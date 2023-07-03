@@ -73,10 +73,10 @@ function Nav({ hasDb, hasReadme }: NavProps) {
 
   const matches = useMediaQuery(theme.breakpoints.down('md'));
 
-  const tabs = [{ to: '/', label: 'Chat' }];
+  const tabs = [{ to: '/', label: '对话' }];
 
   if (hasDb) {
-    tabs.push({ to: '/dataset', label: 'History' });
+    tabs.push({ to: '/dataset', label: '历史' });
   }
 
   if (hasReadme) {
