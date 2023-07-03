@@ -80,7 +80,7 @@ function Nav({ hasDb, hasReadme }: NavProps) {
   }
 
   if (hasReadme) {
-    tabs.push({ to: '/readme', label: 'Readme' });
+    tabs.push({ to: '/readme', label: '关于沧渊' });
   }
 
   const nav = (
