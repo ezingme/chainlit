@@ -38,7 +38,7 @@ export default function NewChatButton() {
         onClick={handleClickOpen}
         startIcon={<AddIcon />}
       >
-        New Chat
+        新对话
       </AccentButton>
       <Dialog
         open={open}
@@ -51,7 +51,7 @@ export default function NewChatButton() {
         }}
       >
         <DialogTitle id="alert-dialog-title">
-          {'Create a new chat?'}
+          {'创建新对话?'}
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
@@ -66,7 +66,7 @@ export default function NewChatButton() {
             onClick={handleConfirm}
             autoFocus
           >
-            Confirm
+            确认
           </AccentButton>
         </DialogActions>
       </Dialog>
